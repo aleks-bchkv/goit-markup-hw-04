@@ -57,8 +57,6 @@ img {
 
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -72,7 +70,6 @@ img {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: auto;
 }
 
 .header .link {
@@ -83,8 +80,7 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
-    flex-grow: 1;
-    justify-content: space-between;
+    margin-right: auto;
 }
 
 .header-logo {
@@ -209,6 +205,7 @@ font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--primary-cloud-grey);
+        max-width: 264px;
 }
 
                                 /* Index page styles */
@@ -219,20 +216,21 @@ font-style: normal;
     background-color: var(--primary-navy-blue);
     padding-top: 188px;
     padding-bottom: 188px;
+    text-align: center;
     /* width: 100%;
     max-width: auto; */
     /* padding: 188px 472px 292px 472px; */
 }
 
-.hero-container {
-    /* padding: 188px 472px 188px 472px; */
+/* .hero-container {
+    /* padding: 188px 472px 188px 472px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     max-width: auto;
-    width: 100%;
-}
+    width: 100%; */
+/* } */ 
 
 .hero-title {
     font-family: 'Roboto', sans-serif;
@@ -244,6 +242,7 @@ font-style: normal;
     letter-spacing: 0.02em;
     color: var(--primary-white);
     max-width: 496px;
+    margin: 0 auto;
     margin-bottom: 48px;
 }
 
