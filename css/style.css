@@ -369,6 +369,7 @@ address {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
   /* width: 100%;
     max-width: auto; */
   /* padding: 188px 472px 292px 472px; */
